@@ -13,6 +13,17 @@
 		6B21FA6A281B148900299948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B21FA68281B148900299948 /* Main.storyboard */; };
 		6B21FA6C281B148A00299948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B21FA6B281B148A00299948 /* Assets.xcassets */; };
 		6B21FA6F281B148A00299948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B21FA6D281B148A00299948 /* LaunchScreen.storyboard */; };
+		6B21FA77281B326300299948 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B21FA76281B326300299948 /* CustomTableViewCell.swift */; };
+		6B21FA7B281B8A2800299948 /* DocumentStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B21FA7A281B8A2800299948 /* DocumentStructure.swift */; };
+		6B21FA7D281B8C1A00299948 /* DocumentAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B21FA7C281B8C1A00299948 /* DocumentAddViewController.swift */; };
+		6B21FA7F281B8C2A00299948 /* DocumentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B21FA7E281B8C2A00299948 /* DocumentDetailViewController.swift */; };
+		6B21FA81281BAB5500299948 /* graphic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6B21FA80281BAB5500299948 /* graphic.pdf */; };
+		6B21FA83281BAB6400299948 /* fitra.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6B21FA82281BAB6400299948 /* fitra.pdf */; };
+		6B21FA85281BAFD600299948 /* PDFKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B21FA84281BAFD600299948 /* PDFKitViewController.swift */; };
+		6B21FA87281BB3D400299948 /* NoDocument.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6B21FA86281BB3D400299948 /* NoDocument.pdf */; };
+		6B21FA89281BBFDE00299948 /* BannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B21FA88281BBFDE00299948 /* BannerTableViewCell.swift */; };
+		6BFF8B4D2828A970005C20FA /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF8B4C2828A970005C20FA /* CustomUIView.swift */; };
+		6BFF8B4F2828C0DF005C20FA /* Report.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6BFF8B4E2828C0DF005C20FA /* Report.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		6B21FA6B281B148A00299948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B21FA6E281B148A00299948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B21FA70281B148A00299948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B21FA76281B326300299948 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		6B21FA7A281B8A2800299948 /* DocumentStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentStructure.swift; sourceTree = "<group>"; };
+		6B21FA7C281B8C1A00299948 /* DocumentAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentAddViewController.swift; sourceTree = "<group>"; };
+		6B21FA7E281B8C2A00299948 /* DocumentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentDetailViewController.swift; sourceTree = "<group>"; };
+		6B21FA80281BAB5500299948 /* graphic.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = graphic.pdf; sourceTree = "<group>"; };
+		6B21FA82281BAB6400299948 /* fitra.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = fitra.pdf; sourceTree = "<group>"; };
+		6B21FA84281BAFD600299948 /* PDFKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitViewController.swift; sourceTree = "<group>"; };
+		6B21FA86281BB3D400299948 /* NoDocument.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = NoDocument.pdf; sourceTree = "<group>"; };
+		6B21FA88281BBFDE00299948 /* BannerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableViewCell.swift; sourceTree = "<group>"; };
+		6BFF8B4C2828A970005C20FA /* CustomUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		6BFF8B4E2828C0DF005C20FA /* Report.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Report.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +78,24 @@
 		6B21FA61281B148900299948 /* Fitra */ = {
 			isa = PBXGroup;
 			children = (
+				6B21FA86281BB3D400299948 /* NoDocument.pdf */,
+				6B21FA80281BAB5500299948 /* graphic.pdf */,
+				6B21FA82281BAB6400299948 /* fitra.pdf */,
+				6BFF8B4E2828C0DF005C20FA /* Report.pdf */,
 				6B21FA62281B148900299948 /* AppDelegate.swift */,
 				6B21FA64281B148900299948 /* SceneDelegate.swift */,
 				6B21FA66281B148900299948 /* ViewController.swift */,
+				6B21FA7A281B8A2800299948 /* DocumentStructure.swift */,
 				6B21FA68281B148900299948 /* Main.storyboard */,
+				6B21FA88281BBFDE00299948 /* BannerTableViewCell.swift */,
 				6B21FA6B281B148A00299948 /* Assets.xcassets */,
 				6B21FA6D281B148A00299948 /* LaunchScreen.storyboard */,
 				6B21FA70281B148A00299948 /* Info.plist */,
+				6B21FA76281B326300299948 /* CustomTableViewCell.swift */,
+				6B21FA7C281B8C1A00299948 /* DocumentAddViewController.swift */,
+				6B21FA7E281B8C2A00299948 /* DocumentDetailViewController.swift */,
+				6B21FA84281BAFD600299948 /* PDFKitViewController.swift */,
+				6BFF8B4C2828A970005C20FA /* CustomUIView.swift */,
 			);
 			path = Fitra;
 			sourceTree = "<group>";
@@ -126,8 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B21FA6F281B148A00299948 /* LaunchScreen.storyboard in Resources */,
+				6B21FA81281BAB5500299948 /* graphic.pdf in Resources */,
+				6BFF8B4F2828C0DF005C20FA /* Report.pdf in Resources */,
+				6B21FA87281BB3D400299948 /* NoDocument.pdf in Resources */,
 				6B21FA6C281B148A00299948 /* Assets.xcassets in Resources */,
 				6B21FA6A281B148900299948 /* Main.storyboard in Resources */,
+				6B21FA83281BAB6400299948 /* fitra.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B21FA7B281B8A2800299948 /* DocumentStructure.swift in Sources */,
+				6BFF8B4D2828A970005C20FA /* CustomUIView.swift in Sources */,
 				6B21FA67281B148900299948 /* ViewController.swift in Sources */,
 				6B21FA63281B148900299948 /* AppDelegate.swift in Sources */,
+				6B21FA89281BBFDE00299948 /* BannerTableViewCell.swift in Sources */,
+				6B21FA77281B326300299948 /* CustomTableViewCell.swift in Sources */,
 				6B21FA65281B148900299948 /* SceneDelegate.swift in Sources */,
+				6B21FA7F281B8C2A00299948 /* DocumentDetailViewController.swift in Sources */,
+				6B21FA85281BAFD600299948 /* PDFKitViewController.swift in Sources */,
+				6B21FA7D281B8C1A00299948 /* DocumentAddViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
